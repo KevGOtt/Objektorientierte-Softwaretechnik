@@ -14,10 +14,34 @@ public class Kunde {
 
     private String name;
     private Anschrift anschrift;
-    private int KundenID;
+    private int kundenID;
     private String bild;
 
+    public Kunde(String name, Anschrift anschrift, int kundenID, String bild) {
+        this.name = name;
+        this.anschrift = anschrift;
+        this.kundenID = kundenID;
+        this.bild = bild;
+    }
+    public void buchReservieren(Buch b) {
+        //TODO
+    }
+    public void reservierungStornieren(Buch b){
+        //TODO
+    }
+    public void leihfristVerlaenger(Buch b) {
+        //todo
+    }
+    public void buchStandortAnzeigen(Buch b) {
+        //TODO
+    }
+    public void buchStatusAnzeigen(Buch b) {
+
+    }
+    public void buecherBestandAnzeigen() {
+
+    }
     public int getID() {
-        return this.KundenID;
+        return this.kundenID;
     }
 }

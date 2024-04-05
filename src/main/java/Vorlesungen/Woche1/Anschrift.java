@@ -7,7 +7,26 @@ public class Anschrift {
     private int plz;
     private String ort;
 
-    public Anschrift() {
-        //TEST HAHAAHAH
+    public Anschrift(String strasse, int hausNr, int plz, String ort) {
+        this.hausNr = hausNr;
+        this.ort = ort;
+        this.plz = plz;
+        this.strasse = strasse;
+    }
+
+    public String getStrasse() {
+        return this.strasse;
+    }
+
+    public int getHausNr() {
+        return this.hausNr;
+    }
+
+    public int getPlz() {
+        return this.plz;
+    }
+
+    public String getOrt() {
+        return this.ort;
     }
 }

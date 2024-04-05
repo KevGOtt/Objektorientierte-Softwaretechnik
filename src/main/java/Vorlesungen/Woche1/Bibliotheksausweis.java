@@ -8,4 +8,8 @@ public class Bibliotheksausweis {
         this.kundenID = k.getID();
         this.bild = bild;
     }
+
+    public void print() {
+        System.out.println(this.kundenID + " | " + this.bild);
+    }
 }
