@@ -1,0 +1,9 @@
+@startuml
+
+Actor Jonas
+Actor Kevin
+Jonas --> Kevin : DAS IST EIN ÜBERFALL
+
+"Buch ausleihen" as (Ausleihen)
+note right of Jonas : Ich bin dumm
+@enduml
