@@ -1,0 +1,37 @@
+Lastenheft EasyRide
+
+Es soll eine Software für ein Ridesharing-System in einer Stadt entwickelt werden. In der Stadt fährt
+eine Flotte von Fahrzeugen und transportiert Fahrgäste innerhalb eines Netzes von Haltepunkten.
+Ridesharing bedeutet, dass ein Fahrzeug auch mehrere Fahrgäste mit unterschiedlichen Start- und
+Zielhaltepunkten aufnehmen kann.
+Fahrzeuge dürfen aus Sicherheits- und Geschäftsgründen nicht überall halten, sondern nur an
+definierten Haltepunkten. Das Netz aus Haltepunkten und den direkten Verbindungen zwischen ihnen
+ist ein gerichteter Graph: Aufgrund von Einbahnstraßen kann es sein, dass es eine direkte Verbindung
+zwischen Haltepunkt A und B gibt aber keine direkte Verbindung von B nach A, wobei dies nicht die
+Regel ist. Für jede direkte Verbindung zwischen Haltepunkten ist eine durchschnittliche Fahrzeit
+hinterlegt, wobei es für die Verbindung von A nach B und für die Verbindung von B nach A
+unterschiedliche Fahrzeit geben kann.
+Die Flotte besteht aus mehreren Fahrzeugen unterschiedlichen Typs mit unterschiedlicher Anzahl an
+Sitzplätzen.
+Buchen Kunden ein Fahrt, so soll für ein Fahrzeug eine neue Route angelegt oder eine existierende
+Route verändert oder erweitert werden. Eine Route ist eine Liste von Haltepunkten, die das Fahrzeug
+nacheinander besuchen soll, um Fahrgäste aufzunehmen und abzusetzen. Die Route beschreibt zudem
+pro Haltepunkt auf der Route, welche Fahrgäste dort aufgenommen oder abgesetzt werden sollen. Eine
+Route sollte nie so gestaltet sein, dass die Anzahl an Fahrgästen die Anzahl an Sitzplätzen im Fahrzeug
+übersteigt.
+Fahrzeuge werden von Fahrern gesteuert, die über ein Tablet bestätigen sollen, wenn ein Haltepunkt
+erreicht wurde. Über das Tablet sollen die Fahrer zudem den nächsten anzufahrenden Haltepunkt
+abfragen können sowie die Namen der dort aufzunehmenden und abzusetzenden Fahrgäste.
+Sie sollen eine Softwaresystem entwickeln, welche folgenden Funktionsumfang realisiert.
+Das zu entwickelnde Softwaresystem soll es Kunden z.B. per Smartphone ermöglichen:
+• Eine Fahrt von einem Start- zu einem Zielort zu buchen
+• Eine Fahrtbuchung zu stornieren
+• vor Fahrtantritt zu erfahren, wie lange die übrige Wartezeit ist
+• nach Fahrtantritt zu erfahren, wie lange die übrige Fahrzeit bis zum Zielort ist
+Das zu entwickelnde Softwaresystem soll es Fahrern per einem Tablet ermöglichen:
+• den nächsten anzufahrenden Haltepunkt abzufragen, sowie die Namen der dort
+aufzunehmenden und abzusetzenden Fahrgäste
+• das Erreichen des nächsten Haltepunkts zu bestätigen
+Das zu entwickelnde Softwaresystem soll es einem Flottenmanager am PC ermöglichen:
+• Den letzten gemeldeten Haltepunkt sowie Details der Route jedes Fahrzeugs einzusehen.
+• Fahrzeuge in die Flotte aufzunehmen und auszumustern

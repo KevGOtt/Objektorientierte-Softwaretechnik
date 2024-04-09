@@ -1,0 +1,51 @@
+1 Miniprojekt
+
+
+Beachten Sie diese Anweisungen bei allen Abgaben für das Miniprojekt:
+• Laden Sie alle Abgaben als ZIP-Archiv im Teams-Ordner Ihrer BÜbungsgruppe hoch. Der Dateiname soll folgendes Format haben:
+Miniprojekt-Abgabe-Woche-XX-<Nachnamen-der-Autoren>.zip
+• Die Abgabe soll als Hauptdokument ein PDF mit Präsentationsfolien
+enthalten, welches die wichtigsten Ergebnisse, z.B. UML-Diagramme
+enthält. Diese Präsentationsfolien sind Grundlage für die Präsentation
+der Ergebnisse in den Übungen. Achten Sie auf eine gute Lesbarkeit,
+insbesondere eine ausreichende Schriftgröße. Auf dem Deckblatt der
+Präsentation sollen die Namen der Teammitglieder aufgelistet sein.
+• Je nach Aufgabenstellung ist die Erstellung von weiteren Dokumenten,
+UML-Modellen oder Programmcode gefordert. Diese Artefakte sollen
+dann zusätzlich im ZIP-Archiv mit abgegeben werden und können auch
+bei der Präsentation der Ergebnisse gezeigt werden.
+1. Formen Sie innerhalb Ihrer B-Übungsgruppe Teilgruppen von 2-4 Personen, die zusammen an einem der Miniprojekte arbeiten. Stimmen
+Sie sich innerhalb Ihrer B-Übungsgruppe weiterhin ab, welche Teams
+welche Aufgabenstellung (EasyRide oder EasyScoot) bearbeitet. Pro
+B-Übungsgruppe sollten beide Themen abgedeckt sein.
+2. Lesen Sie sich das Lastenheft (EasyRide / EasyScoot) gut durch.
+3. Stakeholder identifizieren: Überlegen Sie welche Stakeholder es bei Ihrem Entwicklungsprojekt gibt. Machen Sie eine Liste und vergeben Sie
+Prioritäten (kritisch, wichtig, weniger wichtig).
+4. Systemkontext und Akteure beschreiben: Beschreiben Sie den Systemkontext (Akteure und externe Softwaresysteme) und modellieren Sie
+ein Kontextdiagramm mit Hilfe eines Use Case-Diagramms in Papyrus
+UML. Falls noch nicht geschehen, installieren Sie dazu die aktuellste
+Release-Version von Papyrus UML.
+https://www.eclipse.org/papyrus/download.html
+5. Geschäftsanwendungsfälle: Welche Geschäftsanwendungsfälle soll Ihr
+System unterstützen? Erstellen Sie eine Übersicht über die Geschäftsanwendungsfälle mit Hilfe eines Use Case-Diagramms in Papyrus UML.
+Beschreiben Sie einen der zentralen Geschäftsanwendungsfälle zusätzlich in Tabellenform. Orientieren Sie sich dabei an der Vorlagen in der
+Vorlesung.
+(Wir sind in der letzten Vorlesung, Vorlesung 01-2, nicht mehr zum
+Thema „Geschäftsanwendungsfälle“ gekommen. Im Foliensatz zur Vorlesung finden Sie allerdings einige erklärende Folien zu dem Thema.
+Bitte schauen Sie sich die Folien an und/oder lesen Sie sich den entsprechenden Abschnitt im Buch „Analyse und Design mit UML 2.3“
+an (s. Übungsaufgabe unten).)
+2 Übungsaufgaben
+1. Wir haben in der Vorlesung über agile Softwareentwicklung gesprochen und kurz Scrum als ein agiles Methodik besprochen. Eine weitere
+agile Methodik ist Extreme Programming (XP). Recherchieren Sie online nach Extreme Programming (XP) und beantworten Sie folgende
+Fragen:
+a. Was ist das Ziel von Extreme Programming?
+b. Extreme Programming beschreibt 12 Praktiken. Listen Sie diese
+Praktiken auf und beschreiben Sie jede Praktik mit ein bis zwei
+Sätzen.
+c. (Falls möglich:) Fragen Sie in Ihrem Praxisunternehmen / Abteilung, welche dieser Praktiken praktiziert werden. Gibt es vielleicht andere agile Methoden oder Praktiken, die angewendet werden? Berichten Sie.
+2. Leihen Sie sich das Buch „Analyse und Design mit UML 2.3“ von
+Bernd Oestereich aus der Bibliothek aus. (Ggf. sind nicht genug Exemplare für alle vorhanden, dann teilen Sie sich bitte ein Exemplar in
+Ihrer Miniprojektgruppe). Lesen Sie Abschnitt 3.1.5. zu Geschäftsanwendungsfällen und beantworten Sie folgende Fragen:
+a. Wie ist dort beschrieben, was ein Geschäftsanwendungsfall ist?
+b. Wann ist ein Geschäftsanwendungsfall auszuschließen?
+c. Wo fängt ein Geschäftsanwendungsfall an und wo hört er auf?
