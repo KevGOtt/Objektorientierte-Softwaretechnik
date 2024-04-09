@@ -1,0 +1,8 @@
+@startuml
+:Kunde:
+:Fahrer:
+Kunde --> (Bucht Fahrt)
+Fahrer -->(Fährt)
+(Bezahlen) <-up- (Bucht Fahrt)
+
+@enduml
