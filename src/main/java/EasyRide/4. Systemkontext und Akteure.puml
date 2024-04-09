@@ -1,0 +1,19 @@
+@startuml
+allowmixing
+
+actor Fahrgast
+actor Fahrer
+actor Flottenmanager
+
+object Kundensystem
+object Firmensystem
+
+Fahrgast -left-> Kundensystem : Buchen/Stornieren einer Fahrt
+
+
+
+Fahrer --> Fahrgast : Erhält Informationen über Abholort und Name
+Fahrer -left-> Firmensystem : Erreichen des \n nächsten Haltepunktes bestätigen
+Flottenmanager -> Kundensystem : Daten abrufen
+Firmensystem <--> Kundensystem : Datenaustausch
+@enduml
