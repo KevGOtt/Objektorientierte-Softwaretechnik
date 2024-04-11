@@ -1,0 +1,33 @@
+Kundenverwaltung :
+Neue Kunden registrieren
+Registrierte Kunden löschen
+Registrierte Kundendaten ändern
+
+Kunde :
+Fahrt buchen
+Fahrt stornieren
+Kundendaten bearbeiten
+Kundendaten löschen/ändern
+Wartezeitinformationen abrufen
+Fahrzeitinformationen abrufen
+
+Fahrer :
+Abfragen des nächsten Haltepunktes
+Bestätigung des nächsten Haltepunktes
+Fahrgastinformationen abrufen (Name, Ziel- Startort)
+
+Flottenmanager:
+Einsehen von Fahrzeugdetails
+Verwaltung der Fahrzeuge
+
+Fuhrpark Management:
+KFZ-reparieren
+KFZ-beschaffen
+
+Rechnungswesen:
+Zahlungsvorgänge buchen
+Rechnungen ausstellen und an Kunden verschicken
+
+Marketing:
+Anzeigen schalten
+Infomaterial bestellen
