@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class BenanntesElement{
+String name
+}
+class Flugzeugtyp{
+
+}
+class Fluggesellschaft{
+
+}
+
+class Flugzeug{
+int seriennummer
+
+}
+class Pilot
+class Kunde
+
+class Fluglinie{
+int: Flugnummer
+String: abflugzeit
+Flugzeugtyp: flugzeugtyp
+Ort: vonOrt
+Ort: bisOrt
+}
+class Ort
+class Reise
+class Flugplan
+class Abflug
+class ReiseSegment
+
+Fluggesellschaft --up|> BenanntesElement
+Kunde --up|> BenanntesElement
+Pilot --up|> BenanntesElement
+Ort --up|> BenanntesElement
+
+
+
+@enduml

@@ -4,8 +4,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        JInternalFrame frame = new JInternalFrame();
-        frame.setClosable(true);
+        JFrame frame = new JFrame();
         frame.setSize(250,250);
         frame.setVisible(true);
     }
