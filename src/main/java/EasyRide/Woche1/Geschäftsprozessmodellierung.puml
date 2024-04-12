@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+:Kunde:
+:Flottenmanager:
+:Fahrer:
+:Kundensupport:
+
+Kunde --> (Kontakt aufnehmen)
+Kunde --> (Routen Information anzeigen)
+(Kontakt aufnehmen) -- Kundensupport
+Kunde -up-> (Fahrt buchen/stornieren)
+Kunde --> (Konto anlegen)
+Kunde --> (Kundendaten ändern)
+Fahrer -->(Route fahren)
+Fahrer -->(Abfragen und Bestätigen des nächsten Haltepunkts)
+Flottenmanager -up-> (Einesehen von Fahrzeugdetail)
+Flottenmanager --> (Routen Information anzeigen)
+(Routen Information anzeigen) <-- Fahrer
+@enduml

@@ -5,16 +5,12 @@ actor Kunde
 actor Fahrer
 actor Flottenmanager
 
-object Kundensystem
-object Firmensystem
+object EasyRideSystem
 
-Kunde -left-> Kundensystem : Buchen/Stornieren einer Fahrt
-
+Kunde -left-> EasyRideSystem : Buchen/Stornieren einer Fahrt
 
 
-Fahrer --> Kunde : Erhält Informationen über \n Abhol- und Zielort \n und Name \n des Kunden
-Fahrer -left-> Firmensystem : Erreichen des \n nächsten Haltepunktes bestätigen
-Flottenmanager -left> Kundensystem : Daten abruf
-Flottenmanager -> Firmensystem : Daten abruf
-Firmensystem <-right-> Kundensystem : Datenaustausch
+EasyRideSystem --> Fahrer : Erhält Informationen über \n Abhol- und Zielort \n und Name \n des Kunden
+Fahrer --> EasyRideSystem : Erreichen des \n nächsten Haltepunktes bestätigen
+Flottenmanager -> EasyRideSystem : Daten abruf
 @enduml

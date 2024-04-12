@@ -11,7 +11,7 @@ Akteure: Kunde und Fahrer des Autos
 
 Eingehende Informationen: Halteort A, Halteort B, Datum, Uhrzeit, Infos zur Person
 
-Vorbedingungen: keine
+Vorbedingungen: Kunde ist bereits in der App registriert
 
 Nachbedingungen: Kunde ist erfolgreich am Standort B angekommen.
 
