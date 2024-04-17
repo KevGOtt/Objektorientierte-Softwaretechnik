@@ -1,0 +1,39 @@
+Systemanwendungsfall: Kunde bucht eine Fahrt
+
+Kurzbeschreibung: Ein Kunde bucht über die EasyRide App eine Fahrt von Halteort A zu Halteort B.
+Er bezahlt die Fahrt und bekommt per App die Fahrt Bestätigung. Anschliessend wird er abgeholt an Halteort A.
+
+Auslöser/Motivation: Ein Kunde möchte von Halteort A nach Halteort B.
+
+Ergebnis: Der Kunde ist erfolgreich an Halteort B angekommen.
+
+Akteure: Kunde und Fahrer des Autos
+
+Eingehende Informationen: Halteort A, Halteort B, Datum, Uhrzeit, Infos zur Person
+
+Vorbedingungen: Kunde ist bereits in der App registriert
+
+Nachbedingungen: Kunde ist erfolgreich am Standort B angekommen.
+
+Primärer Ablauf:
+                1. Kunde interagiert mit der EasyRide App und wählt "Fahrt buchen" aus
+                2. Er gibt seinen Abhol- und seinen Zielort an und bei erstmaliger Benutzung auch seine Personendaten.
+                   Sofern er kein konkretes Datum eingibt bucht er für den heutigen Tag die Fahrt.
+                3. Er sieht seine angegeben Daten und kann die Fahrt buchen/stornieren oder seine Daten nochmals ändern.
+                4. Der Kunde sieht den Preis und bezahlt anschließend die Fahrt.
+                5. Der Fahrer bekommt eine Benachrichtung in seiner App mit Name des Kunden und Abholort/Zielort.
+                6. Der Fahrer kommt am Abholort an und nimmt den Kunden auf.
+                7. Der Fahrer fährt den Kunden zu seinem Zielort und verabschiedet sich.
+
+Business UC: Geschäftsanwendungsfall "Kunde bucht Fahrt"
+
+Sekundärer Ablauf:
+                1. Kunde interagiert mit der EasyRide App und wählt "Fahrt buchen" aus
+                2. Er gibt seinen Abhol- und seinen Zielort an und bei erstmaliger Benutzung auch seine Personendaten.
+                   Sofern er kein konkretes Datum eingibt bucht er für den heutigen Tag die Fahrt.
+                3. Er sieht seine angegeben Daten und kann die Fahrt buchen/stornieren oder seine Daten nochmals ändern.
+                4. Der Kunde sieht den Preis und bezahlt anschließend die Fahrt.
+                5. Der Kunde entschliesst sich die Fahrt kurzfristig zu stornieren und tut dies über die EasyRideApp
+                6. In der App wählt er die Fahrt aus und gibt einen Satz zum Grund an.
+                7. Er bestätigt alles und die Fahrt ist storniert. Der Fahrer bekommt hiervon nichts mit.
+
