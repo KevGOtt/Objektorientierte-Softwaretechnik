@@ -1,0 +1,20 @@
+@startuml
+
+start
+
+:App Öffnen;
+
+:App Einstellungen;
+repeat :Mein Konto;
+:Kontoeinstellungen;
+:Account löschen;
+backward:Abbruch;
+repeat while (Wollen Sie ihr Konto löschen?) is (Nein) not (Ja)
+    :Konto löschen;
+stop
+
+@enduml
+
+
+
+@enduml

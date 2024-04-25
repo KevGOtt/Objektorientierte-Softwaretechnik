@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+:App öffnen;
+:Zeitpunkt eingeben;
+:Haltepunkt eingeben;
+
+repeat
+    :Fahrt bestätigen;
+split
+
+   :Zahlungsmethode vorhanden;
+split again
+   :Zahlungsmethode nicht vorhanden;
+   'repeat while(Wollen Sie eine Zahlungsmethode hinzufügen?) is (no) not (yes)
+        :Zahlungsmethode hinzugefügt;
+end split
+:Fahrt wird gebucht;
+
+@enduml
