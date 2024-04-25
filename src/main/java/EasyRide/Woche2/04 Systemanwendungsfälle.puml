@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+@startUML "EasyRide" Use Case Diagram
+left to right direction
+
+Actor Kunde as Kunde
+Actor Flottenmanager as Flottenmanager
+Actor Fahrer as Fahrer
+
+rectangle "EasyRide" {
+
+    together {
+
+        (Konto erstellen) as (Konto erstellen)
+        (Konto löschen) as (Konto löschen)
+        (Fahrtinformation anzeigen) as (Fahrtinformation anzeigen)
+        (Fahrt buchen) as (Fahrt buchen)
+        (Fahrt stornieren) as (Fahrt stornieren)
+
+        
+
+        Kunde -- (Konto erstellen)
+        Kunde -- (Konto löschen)
+        Kunde -- (Fahrtinformation anzeigen)
+        Kunde -- (Fahrt buchen)
+        (Fahrt stornieren) -right-> (Fahrt buchen) : \t           extends
+
+        (Fahrtinformation anzeigen) -- Flottenmanager
+        (Fahrtinformation anzeigen) -- Fahrer
+        (Fahrzeug ausmustern) -- Flottenmanager
+        (Fahrzeug beschaffen) -- Flottenmanager
+        (Ankunft am HP bestätigen)  -- Fahrer
+
+    }
+
+}
+
+
+
+
+@endUML

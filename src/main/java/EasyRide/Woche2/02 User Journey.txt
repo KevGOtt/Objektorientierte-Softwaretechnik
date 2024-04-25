@@ -1,0 +1,4 @@
+Phase 1: Er sieht Fahrzeuge mit Werbung von EasyRide in der Stadt rumfahren.
+Phase 2: App runterladen, Konto erstellen
+Phase 3: Einloggen ->  Haltepunkte eingeben -> Zeitpunkt angeben -> Fahrt buchen -> opt: Fahrt stornieren
+Phase 4: App schließen
