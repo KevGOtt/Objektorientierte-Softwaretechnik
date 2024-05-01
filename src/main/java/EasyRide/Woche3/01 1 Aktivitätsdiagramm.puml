@@ -1,20 +1,23 @@
 @startuml
-
+|Kundenfrontend|
 start
-
 :App Öffnen;
 
 :App Einstellungen;
-repeat :Mein Konto;
+:Mein Konto;
 :Kontoeinstellungen;
 :Account löschen;
-backward:Abbruch;
-repeat while (Wollen Sie ihr Konto löschen?) is (Nein) not (Ja)
-    :Konto löschen;
+|Kundenfrontend|
+
+if (Wollen Sie ihr Konto löschen?) is (yes) then
+|Datenkomp.|
+  :Konto aus Datenbank löschen;
+else (no)
+endif
+|Kundenfrontend|
 stop
 
 @enduml
-
 
 
 @enduml
