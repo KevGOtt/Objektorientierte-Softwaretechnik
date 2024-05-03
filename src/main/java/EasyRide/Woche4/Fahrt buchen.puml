@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+'Kunde bucht für eine andere Person eine Fahrt.
+|Kundenfrontend|
+start
+-App öffnen-
+|Fahrtkomponente|
+-Zeitpunkt eingeben
+-Haltepunkt eingeben
+-Fahrt bestätigen
+
+|Account DB|
+if (Zahlungsmethode bereits vorhanden?) is (Ja) then
+else (Nein)
+|Kundenfrontend|
+  if (Möchten sie eine Zahlungsmethode hinzufügen?) is (Ja) then
+    :Zahlungsmethode wurde hinzugefügt;
+  else (Nein)
+    stop
+  endif
+endif
+
+|Fahrtkomponente|
+-Fahrt wurde gebucht
+stop
+
+@enduml
