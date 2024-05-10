@@ -1,0 +1,21 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+'Kunde bucht für eine andere Person eine Fahrt.
+|Kundenfrontend|
+start
+-App öffnen-
+|Kontokomponente|
+-Meine Fahrten
+-Gebuchte Fahrt auswählen
+|Kundenfrontend|
+if (Wollen Sie diese Fahrt wirklich stornieren?) is (Ja) then
+|Fahrtkomponente|
+  :Fahrt wurde storniert;
+else (Nein)
+
+endif
+
+|Kundenfrontend|
+stop
+
+@enduml

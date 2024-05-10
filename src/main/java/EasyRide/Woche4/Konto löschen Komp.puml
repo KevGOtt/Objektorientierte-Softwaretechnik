@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+'Kunde bucht für eine andere Person eine Fahrt.
+|Kundenfrontend|
+start
+-App öffnen-
+|Kontokomponente|
+-App Einstellungen
+-Mein Konto
+-Account löschen
+
+|Kundenfrontend|
+if (Wollen Sie ihr Konto wirklich löschen?) is (Ja) then
+|AccountDB|
+  -Konto aus Datenbank löschen
+else (Nein)
+
+endif
+|Kundenfrontend|
+stop
+
+@enduml
