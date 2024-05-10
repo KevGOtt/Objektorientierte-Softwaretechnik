@@ -12,6 +12,7 @@ rectangle "EasyRide" {
 
     together {
 
+        (Personen Aufnahme Bestätigen) as (Personen Aufnahme Bestätigen)
         (Konto erstellen) as (Konto erstellen)
         (Konto löschen) as (Konto löschen)
         (Fahrtinformation anzeigen) as (Fahrtinformation anzeigen)
@@ -31,7 +32,7 @@ rectangle "EasyRide" {
         (Fahrzeug ausmustern) -- Flottenmanager
         (Fahrzeug beschaffen) -- Flottenmanager
         (Ankunft am HP bestätigen)  -- Fahrer
-
+        (Personen Aufnahme Bestätigen) -- Fahrer
     }
 
 }

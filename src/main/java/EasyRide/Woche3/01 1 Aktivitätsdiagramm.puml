@@ -4,13 +4,17 @@ start
 
 :App Öffnen;
 
-:App Einstellungen;
-repeat :Mein Konto;
-:Kontoeinstellungen;
-:Account löschen;
-backward:Abbruch;
-repeat while (Wollen Sie ihr Konto löschen?) is (Nein) not (Ja)
-    :Konto löschen;
+:Zeitpunkt eingeben;
+:Haltepunkte eingeben;
+:Fahrt bestätigen;
+
+if (Zahlungsmethode hinzufügen?) is (Ja) then
+    :Fahrt endgültig buchen;
+else (Nein)
+
+endif
+
+
 stop
 
 @enduml
