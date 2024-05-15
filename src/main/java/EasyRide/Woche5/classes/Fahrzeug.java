@@ -6,10 +6,13 @@ public class Fahrzeug {
     private final int fahrzeugNr;
     private final int maxSitzplaetze;
 
+
+
     public Fahrzeug(String nummernschild, int fahrzeugNr, int maxSitzplaetze) {
         this.nummernschild = nummernschild;
         this.fahrzeugNr = fahrzeugNr;
         this.maxSitzplaetze = maxSitzplaetze;
+
     }
 
     public String getNummernschild() {

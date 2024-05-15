@@ -1,8 +1,8 @@
 package EasyRide.Woche5.classes;
 
-import EasyRide.Woche5.interfaces.IFahrtinformationen;
+import java.util.Scanner;
 
-public class Kunde implements IFahrtinformationen {
+public class Kunde {
     private final String name;
 
     public Kunde(String name){
@@ -13,17 +13,18 @@ public class Kunde implements IFahrtinformationen {
         return this.name;
     }
 
-    public void FahrtBuchen(){
+    public Fahrt FahrtBuchen(int Uhrzeit, Haltepunkt startPunkt, Haltepunkt zielpunkt){
         //Hier wird eine Fahrt gebucht
+        return new Fahrt(Uhrzeit, startPunkt, zielpunkt);
     }
 
-    public boolean FahrtStornieren() {
+    public void FahrtStornieren() {
         //Hier wird eine Fahrt storniert
-        return true;
+        System.out.println("Ihre Fahrt wurde erfolgreich storniert.");
     }
 
 
-    @Override
+
     public Fahrtinformation getFahrtinformationen() {
         return null;
     }

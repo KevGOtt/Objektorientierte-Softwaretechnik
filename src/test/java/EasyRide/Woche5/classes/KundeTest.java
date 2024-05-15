@@ -5,18 +5,14 @@ import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-class KundeTest {
-    Kunde k = new Kunde("abc");
+public class KundeTest {
+    Kunde k = new Kunde("Richard Walter");
 
     @Test
-    public void testKundeGetName() {
-        assertEquals("abc", k.getName());
-
-    }
-
-    @Test
-    public void testKundeIsNull() {
-        assertNotNull(k);
+    public void test1() {
+        int uhrzeit = 13;
+        Fahrt fahrt =  k.FahrtBuchen(uhrzeit, new Haltepunkt(10,10), new Haltepunkt(14,11));
+        assertEquals(uhrzeit, fahrt.getUhrzeit());
     }
 
 

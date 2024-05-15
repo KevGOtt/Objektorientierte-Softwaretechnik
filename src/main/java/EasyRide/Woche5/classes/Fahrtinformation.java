@@ -1,7 +1,5 @@
 package EasyRide.Woche5.classes;
 
-import EasyRide.Woche5.interfaces.IFahrtinformationen;
-
 import java.util.List;
 
 public class Fahrtinformation  {
@@ -25,5 +23,27 @@ public class Fahrtinformation  {
         this.zeitpunkt = zeitpunkt;
     }
 
+    public int getFahrtdauer() {
+        return fahrtdauer;
+    }
 
+    public List<Haltepunkt> getHaltepunkte() {
+        return haltepunkte;
+    }
+
+    public Fahrer getFahrer() {
+        return fahrer;
+    }
+
+    public int getStrecklaengeInKm() {
+        return strecklaengeInKm;
+    }
+
+    public Kunde getKunde() {
+        return kunde;
+    }
+
+    public int getZeitpunkt() {
+        return zeitpunkt;
+    }
 }

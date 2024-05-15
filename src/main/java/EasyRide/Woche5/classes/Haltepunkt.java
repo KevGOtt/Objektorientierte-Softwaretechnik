@@ -16,4 +16,12 @@ public class Haltepunkt {
     public double getBreitengrad() {
         return breitengrad;
     }
+
+    @Override
+    public String toString() {
+        return "Haltepunkt{" +
+                "laengengrad=" + laengengrad +
+                ", breitengrad=" + breitengrad +
+                '}';
+    }
 }
