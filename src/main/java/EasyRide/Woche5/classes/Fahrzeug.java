@@ -2,9 +2,9 @@ package EasyRide.Woche5.classes;
 
 public class Fahrzeug {
 
-    private String nummernschild;
-    private int fahrzeugNr;
-    private int maxSitzplaetze;
+    private final String nummernschild;
+    private final int fahrzeugNr;
+    private final int maxSitzplaetze;
 
     public Fahrzeug(String nummernschild, int fahrzeugNr, int maxSitzplaetze) {
         this.nummernschild = nummernschild;
