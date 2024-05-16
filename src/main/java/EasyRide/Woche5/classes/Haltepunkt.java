@@ -1,27 +1,32 @@
 package EasyRide.Woche5.classes;
 
 public class Haltepunkt {
-    private double laengengrad;
-    private double breitengrad;
-
-    public Haltepunkt(double laengengrad, double breitengrad) {
-        this.laengengrad = laengengrad;
-        this.breitengrad = breitengrad;
+    private final double xPos;
+    private final double yPos;
+     private final int idKunde;
+    public Haltepunkt(double xPos, double yPos, int idKunde) {
+        this.xPos = xPos;
+        this.yPos = yPos;
+        this.idKunde = idKunde;
     }
 
-    public double getLaengengrad() {
-        return laengengrad;
+    public double getxPos() {
+        return xPos;
     }
 
-    public double getBreitengrad() {
-        return breitengrad;
+    public double getyPos() {
+        return yPos;
+    }
+
+    public int getIdKunde() {
+        return idKunde;
     }
 
     @Override
     public String toString() {
         return "Haltepunkt{" +
-                "laengengrad=" + laengengrad +
-                ", breitengrad=" + breitengrad +
+                "laengengrad=" + xPos +
+                ", breitengrad=" + yPos +
                 '}';
     }
 }
